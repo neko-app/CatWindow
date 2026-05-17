@@ -1,0 +1,32 @@
+FloatWindowApp/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/example/floatwindow/
+│   │   │   │       ├── MainActivity.java          # 权限引导（透明/无历史）
+│   │   │   │       ├── SettingsActivity.java      # 设置界面
+│   │   │   │       ├── FloatWindowService.java    # 悬浮窗主控服务
+│   │   │   │       ├── ConfigManager.java         # JSON 本地持久化
+│   │   │   │       ├── TapHelper.java             # 双击/三击手势解析
+│   │   │   │       ├── TimeWidget.java            # 右下角时间/电量
+│   │   │   │       ├── FunctionWidget.java        # 右侧功能按钮组
+│   │   │   │       ├── FloatingBall.java          # 悬浮球组件
+│   │   │   │       └── AppListPanel.java          # 应用列表抽屉
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/                      # 存放图标/背景资源
+│   │   │   │   ├── mipmap-hdpi/ ~ mipmap-xxxhdpi/ # 启动图标
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   └── themes.xml                 # 父主题改为 NoActionBar
+│   │   │   │   └── xml/data_extraction_rules.xml
+│   │   │   └── AndroidManifest.xml
+│   │   ── test/ & androidTest/
+│   ├── build.gradle.kts                           # 模块级构建配置
+│   └── proguard-rules.pro
+├── gradle/wrapper/
+├── build.gradle.kts                               # 项目级构建配置
+├── settings.gradle.kts
+├── gradle.properties
+└── local.properties
