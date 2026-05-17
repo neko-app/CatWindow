@@ -3,6 +3,7 @@
 Hey, we also have a Chinese version, want to check it out?
 
 [去看看 | go to see](README.zh.md)
+
 ---
 # CatWindow
 
