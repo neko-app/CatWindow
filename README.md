@@ -1,6 +1,7 @@
 嘿,我们也有中文版本,要去看看吗？
 Hey, we also have a Chinese version, want to check it out?
 [去看看 | go to see](README.zh.md)
+---
 # CatWindow
 
 Android floating window application providing convenient features like floating ball, time/battery display, quick function buttons, and app list.
